@@ -3,6 +3,8 @@ package main
 import (
 	"math/rand"
 	"time"
+
+	"golang.org/x/crypto/bcrypt"
 )
 
 type Account struct {
